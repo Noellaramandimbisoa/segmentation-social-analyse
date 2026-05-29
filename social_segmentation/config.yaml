@@ -1,0 +1,11 @@
+paths:
+  raw_data: data/raw/segmentation-data.csv
+  processed_data: data/processed/processed_data.csv
+  model_path: results/export/kmeans_model.pkl
+  scaler_path: results/export/scaler.pkl
+  output_dir: results/export
+  plots_dir: results/plots
+
+data:
+  n_clusters: 4
+  random_state: 42
