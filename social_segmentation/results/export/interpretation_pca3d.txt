@@ -1,0 +1,18 @@
+with open(
+    os.path.join(OUTPUT_DIR, "interpretation_pca3d.txt"),
+    "w",
+    encoding="utf-8"
+) as f:
+
+    f.write("INTERPRÉTATION DE LA PCA 3D\n\n")
+    f.write(f"Variance expliquée : {variance:.2f}%\n\n")
+
+    f.write(
+        "La PCA 3D permet de visualiser les groupes "
+        "sociaux identifiés par l'algorithme K-Means "
+        "dans un espace tridimensionnel. "
+        "Les individus proches appartiennent à des "
+        "profils socio-économiques similaires tandis "
+        "que les groupes éloignés représentent des "
+        "segments sociaux distincts.\n"
+    )
